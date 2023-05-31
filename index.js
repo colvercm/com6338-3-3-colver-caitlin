@@ -27,6 +27,15 @@ NOTE: Extra alerts, confirms, and prompts
 will cause the tests to fail!
 */
 
-function start(beginTest) {
-    var beginTest = prompt('Before you begin. Click the "OK" button if you agree with a statement. Click the "Cancel" button if you disagree with a statement.')
+function start(personalityQuiz) {
+
+    var questions = [
+        "In uncertain times, you expect the best outcome to happen.",
+        "You find it easy to relax.",
+        "You are optimistic about your future.",
+        "You have trust and faith in people.",
+        "You aren’t quick to anger.", 
+    ]
+
+    
 }
