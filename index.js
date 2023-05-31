@@ -26,3 +26,7 @@ is a pessimist.
 NOTE: Extra alerts, confirms, and prompts
 will cause the tests to fail!
 */
+
+function start(beginTest) {
+    var beginTest = prompt('Before you begin. Click the "OK" button if you agree with a statement. Click the "Cancel" button if you disagree with a statement.')
+}
