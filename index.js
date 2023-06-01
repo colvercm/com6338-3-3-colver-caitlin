@@ -37,5 +37,17 @@ function start(personalityQuiz) {
         "You aren’t quick to anger.", 
     ]
 
-    
-}
+    var answersTrue = 0;
+    for(var i = 0; i < questions.length; i++) {
+      var answer = confirm(questions[i])
+      if (answer)  {
+        answersTrue++
+      }
+    }
+
+    if (answersTrue >= 3) {
+        alert('You are an optimist!')
+        } else {
+        alert('You are a bit of a pessimist...')
+        }
+    }
